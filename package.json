@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^1.1.0",
-    "@slack/web-api": "^5.3.0"
+    "@actions/github": "^3.0.0",
+    "@slack/web-api": "^5.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -64,5 +64,8 @@
         "prerelease": true
       }
     ]
+  },
+  "overrides": {
+    "axios@<=0.32.0": "0.32.0"
   }
 }
