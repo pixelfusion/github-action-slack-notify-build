@@ -24,6 +24,11 @@
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.0"
   },
+  "resolutions": {
+    "axios": "0.33.0",
+    "follow-redirects": "1.16.0",
+    "form-data": "2.5.6"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
