@@ -10,7 +10,11 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^1.1.0",
-    "@slack/web-api": "^5.3.0"
+    "@babel/traverse": "^7.4.3",
+    "@slack/web-api": "^5.3.0",
+    "cross-spawn": "^7.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash.set": "^4.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -23,6 +27,11 @@
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.0"
+  },
+  "resolutions": {
+    "axios": "0.34.0",
+    "follow-redirects": "1.16.1",
+    "form-data": "2.5.6"
   },
   "husky": {
     "hooks": {
